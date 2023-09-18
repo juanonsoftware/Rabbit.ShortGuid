@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,7 +10,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AssemblyVersion></AssemblyVersion>
     <FileVersion></FileVersion>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
+    <PackageProjectUrl>https://github.com/juanonsoftware/Rabbit.ShortGuid</PackageProjectUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
 </Project>
