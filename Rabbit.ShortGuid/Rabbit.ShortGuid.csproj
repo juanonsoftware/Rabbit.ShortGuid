@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Provides custom Guid types that output shorter characters than the Guid from the framework.
+- Guid32 -&gt; output 32 characters 
+- GuidBase36 -&gt; output 26 characters
+- GuidBase62 -&gt; output 22 characters
+- GuidX -&gt; output 21 characters</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+</Project>

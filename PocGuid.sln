@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.ShortGuidTests", "Rabbit.XGuidTests\Rabbit.ShortGuidTests.csproj", "{2CB532ED-EE1A-4542-9188-2F7697370752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.ShortGuid", "Rabbit.ShortGuid\Rabbit.ShortGuid.csproj", "{3E31BB0C-F375-4F92-8FF3-084294F53AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB532ED-EE1A-4542-9188-2F7697370752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB532ED-EE1A-4542-9188-2F7697370752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB532ED-EE1A-4542-9188-2F7697370752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB532ED-EE1A-4542-9188-2F7697370752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E31BB0C-F375-4F92-8FF3-084294F53AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E31BB0C-F375-4F92-8FF3-084294F53AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E31BB0C-F375-4F92-8FF3-084294F53AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E31BB0C-F375-4F92-8FF3-084294F53AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E4A3A05-034D-4270-89F3-42E2C1407872}
+	EndGlobalSection
+EndGlobal
