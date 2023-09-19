@@ -2,6 +2,9 @@
 
 namespace Rabbit.ShortGuid
 {
+    /// <summary>
+    /// Extension methods for a GUID
+    /// </summary>
     public static class GuidExtensions
     {
         /// <summary>
@@ -21,12 +24,12 @@ namespace Rabbit.ShortGuid
         }
 
         /// <summary>
-        /// Get 22 alphanumberic and special characters of the Guid using GuidBase36 instance.
+        /// Get 22 alphanumberic and special characters of the Guid using GuidBase62 instance.
         /// This includes lower/upper/number/special characters.
         /// </summary>
         public static string ToGuid22Chars(this Guid guid)
         {
-            return new GuidX(guid).ToString();
+            return new GuidBase62(guid).ToString();
         }
     }
 }

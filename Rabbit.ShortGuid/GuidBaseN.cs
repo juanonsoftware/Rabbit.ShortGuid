@@ -9,7 +9,7 @@ namespace Rabbit.ShortGuid
     {
         private static string _dictionary = string.Empty;
 
-        protected readonly Guid _guid;
+        private readonly Guid _guid;
         private string _value;
 
         public GuidBaseN(Guid guid)

@@ -10,9 +10,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AssemblyVersion></AssemblyVersion>
     <FileVersion></FileVersion>
-    <Version>1.1.1</Version>
-    <PackageProjectUrl>https://github.com/juanonsoftware/Rabbit.ShortGuid</PackageProjectUrl>
+    <Version>1.1.3</Version>
+    <PackageProjectUrl></PackageProjectUrl>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RepositoryUrl>https://github.com/juanonsoftware/Rabbit.ShortGuid</RepositoryUrl>
   </PropertyGroup>
 
 </Project>

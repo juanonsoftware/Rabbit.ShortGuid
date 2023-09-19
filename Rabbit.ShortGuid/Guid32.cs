@@ -10,8 +10,10 @@ namespace Rabbit.ShortGuid
     {
         private readonly string _value;
 
-        public static readonly Guid32 Empty = new Guid32(Guid.Empty);
-
+        /// <summary>
+        /// Create new instance based on an existing Guid
+        /// </summary>
+        /// <param name="guid">The existing GUID</param>
         public Guid32(Guid guid)
         {
             _value = guid.ToString().Replace("-", string.Empty);
@@ -47,11 +49,18 @@ namespace Rabbit.ShortGuid
             return new Guid32(Guid.NewGuid());
         }
 
+        /// <summary>
+        /// To 32 characters of the Guid (remove hyphens)
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return _value;
         }
 
+        /// <summary>
+        /// Return the hash code from 32 characters
+        /// </summary>
         public override int GetHashCode()
         {
             return _value.GetHashCode();
